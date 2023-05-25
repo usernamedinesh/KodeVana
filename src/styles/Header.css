@@ -1,0 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  
+}
+.logo{
+  justify-content: start;
+}
+
+
+.nav-item{
+    list-style: none;
+}
+
+
+.navbar-nav{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-link:hover{
+    color:yellow;
+} 
+
+
